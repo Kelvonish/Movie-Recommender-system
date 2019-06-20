@@ -1,0 +1,39 @@
+
+body{
+  background-color: #dcddd9;
+}
+
+img{
+  float: left;
+}
+h5{
+  color: red;
+}
+
+/*trailer css*/
+#trailer{
+  background-image: url('../image/trailer.png');
+}
+.video{
+  margin-left: 620px;
+  margin-top: 120px;
+}
+.banner{
+
+}
+@media only screen and (max-width: 600px) {
+  .video{
+    margin-left: 0;
+    margin-top: 0;
+
+  }
+  #iframe{
+    width: 100vw;
+    height: 70vh;
+    alig
+  }
+  #ban{
+    width: 100vw;
+    height: 50vh;
+  }
+}
